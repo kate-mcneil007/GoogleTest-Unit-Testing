@@ -34,9 +34,10 @@ Test the existing source code in the test.cpp file using the Google unit testing
 
 Specifically, address the following in a static testing summary:
 
-Unit Test Names: Define all unit test names to appropriately reflect the test condition.
-Unit Testing: Successfully implement the 13 unit tests, as part of the Google Test fixture; run Google Test ASSERT and EXPECT functionality to prove the tests. Each test you runmust explicitly prove the defined condition of the test.
-Negative Unit Tests: Complete at least 2 of the unit tests as negative tests that demonstrate capturing the appropriate unit test result based on an expected negative result of the test code.
-C/C++ Program Functionality and Best Practices: Demonstrate industry standard best practices, including in-line comments and appropriate naming conventions to enhance readability of code. Develop functional C/C++ code that illustrates a software design pattern approach.
-Process Summary: Provide a summary of the debugging that is thorough and systematic, including specific types of bugs, and that accurately describes the corrections.
+- Unit Test Names: Define all unit test names to appropriately reflect the test condition.
+- Unit Testing: Successfully implement the 13 unit tests, as part of the Google Test fixture; run Google Test ASSERT and EXPECT functionality to prove the tests. Each test you runmust explicitly prove the defined condition of the test.
+- Negative Unit Tests: Complete at least 2 of the unit tests as negative tests that demonstrate capturing the appropriate unit test result based on an expected negative result of the test code.
+- C/C++ Program Functionality and Best Practices: Demonstrate industry standard best practices, including in-line comments and appropriate naming conventions to enhance readability of code. Develop functional C/C++ code that illustrates a software design pattern approach.
+- Process Summary: Provide a summary of the debugging that is thorough and systematic, including specific types of bugs, and that accurately describes the corrections.
+
 To complete this assignment, download the test.cpp file and use the Google Test Guide as guidance as you move through the activity. You will use your development environment to complete this activity.
