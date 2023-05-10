@@ -7,25 +7,29 @@ Key Concepts
 
 Positive tests prove that functionality works when tested. For example, Test(1+1) = 2.
 Negative tests prove that an error or exception happens when provided bad data. For example, Test(5/0) => Divide By Zero.
+
 The following are some essential notes:
 
-The source code has been commented using TODO to explain the detailed rules you must follow.
-You are provided the situation to create 13 unit tests, of which 11 are defined for you and 2 you will need to define.
-You only need a minimum of 2 negative tests, but can do more.
-Test names should reflect the purpose of a test. For example, to test that a number is positive, the test name would be something like EnsureNumberIsPositive.
-Do not confuse the C++ assert / static_assert with the Google Test ASSERT and EXCEPT.
-When should you use the EXPECT_xxx or ASSERT_xxx macros?
-Use ASSERT when failure should terminate processing, such as the reason for the test case.
-Use EXPECT when failure should notify, but processing should continue.
-There are multiple ways to validate the test results, but each test must explicitly prove the defined condition of the test.
-Do not forget that you can leverage capabilities provided by the standard C++ library to help you achieve success.
+- The source code has been commented using TODO to explain the detailed rules you must follow.
+- You are provided the situation to create 13 unit tests, of which 11 are defined for you and 2 you will need to define.
+- You only need a minimum of 2 negative tests, but can do more.
+- Test names should reflect the purpose of a test. For example, to test that a number is positive, the test name would be something like EnsureNumberIsPositive.
+- Do not confuse the C++ assert / static_assert with the Google Test ASSERT and EXCEPT.
+  - When should you use the EXPECT_xxx or ASSERT_xxx macros?
+    - Use ASSERT when failure should terminate processing, such as the reason for the test case.
+    - Use EXPECT when failure should notify, but processing should continue.
+- There are multiple ways to validate the test results, but each test must explicitly prove the defined condition of the test.
+- Do not forget that you can leverage capabilities provided by the standard C++ library to help you achieve success.
+
 You will learn to do the following:
 
-Name unit tests correctly
-Compile and run a Google unit test fixture
-Extend Google unit test fixture with a number of positive and negative tests
-Prove the test results
-Prompt
+- Name unit tests correctly
+- Compile and run a Google unit test fixture
+- Extend Google unit test fixture with a number of positive and negative tests
+- Prove the test results
+
+Prompt: 
+
 Test the existing source code in the test.cpp file using the Google unit testing framework. Include a brief written summary of the process you used, the issues you found, and how you managed the issues.
 
 Specifically, address the following in a static testing summary:
@@ -35,7 +39,4 @@ Unit Testing: Successfully implement the 13 unit tests, as part of the Google Te
 Negative Unit Tests: Complete at least 2 of the unit tests as negative tests that demonstrate capturing the appropriate unit test result based on an expected negative result of the test code.
 C/C++ Program Functionality and Best Practices: Demonstrate industry standard best practices, including in-line comments and appropriate naming conventions to enhance readability of code. Develop functional C/C++ code that illustrates a software design pattern approach.
 Process Summary: Provide a summary of the debugging that is thorough and systematic, including specific types of bugs, and that accurately describes the corrections.
-To complete this assignment, download the test.cpp file and use the Google Test Guide as guidance as you move through the activity. You will use your development environment to complete this activity. Google Test has a number of resources online, including the following:
-
-Googletest Primer
-How to Use Google Test for C++ in Visual Studio
+To complete this assignment, download the test.cpp file and use the Google Test Guide as guidance as you move through the activity. You will use your development environment to complete this activity.
