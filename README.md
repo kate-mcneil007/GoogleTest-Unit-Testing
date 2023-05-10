@@ -1,8 +1,10 @@
 # GoogleTest-Unit-Testing For SNHU CS 405
 Overview
+
 You are a senior software developer on a team of software developers who are responsible for a large banking web application. Your manager has recently learned about the best practice of creating unit tests for software and wants to see a full example of how it works. Another developer on the team started creating a unit test for the std::vector class, and he managed to get the TextFixture and a few tests completed before his vacation started. Your manager is impatient and has asked you to complete the task. He wants to see a number of tests, including positive and negative tests.
 
 Key Concepts
+
 Positive tests prove that functionality works when tested. For example, Test(1+1) = 2.
 Negative tests prove that an error or exception happens when provided bad data. For example, Test(5/0) => Divide By Zero.
 The following are some essential notes:
